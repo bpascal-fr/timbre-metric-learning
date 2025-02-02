@@ -13,9 +13,9 @@ from   joblib            import Parallel, delayed
 from   scipy.io          import savemat, loadmat
 from   scipy.stats       import iqr
 from   scipy.integrate   import simps
-from   pearson           import logpearson, dlogpearson
+from   pearson           import logpearson, dlogpearson, logpearson_nan, dlogpearson_nan
 from   load_dataset      import load_data
-from   optim             import bfgs_log_kernel, bfgs_log_kernel_w1
+from   optim             import bfgs_log_kernel, bfgs_log_kernel_w1, bfgs_log_kernel_nan
 
 
 plt.rc('text', usetex=True)
