@@ -201,7 +201,7 @@ def bfgs_log_kernel_nan(r,d,w_mean = 1,w_std  = 0.01):
     return res
 
 
-def bfgs_log_kernel_w1(r,d):
+def bfgs_log_kernel_w1_nan(r,d):
     
     
     """
