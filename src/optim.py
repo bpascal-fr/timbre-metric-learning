@@ -100,7 +100,7 @@ def bfgs_log_kernel_w1(r,d):
 
     if np.isnan(np.sum(d)):
 
-        res = bfgs_log_kernel_w1_nan(r,d,w_mean,w_std)
+        res = bfgs_log_kernel_w1_nan(r,d)
     
     else:
     
